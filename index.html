@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Wyszukiwarka krajów</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Wyszukiwarka krajów</h1>
+			<input id="country-search" type="text">
+			<button id="search">Szukaj kraju</button>
+			<div class="info">
+				<p>
+					Wyszukiwarka prezentuje pięć pierwszych wyników zapytania. Jeśli nie widzisz, kraju który Cię interesuje, to nie znaczy, że wyszukiwarka go nie znalazła (po prostu go nie wyświetla, chyba, że szukasz takiego kraju jak San Escobar <i class="fa fa-smile-o"></i>). Musisz doprecyzować zapytanie.
+				</p>
+			</div>
+			<div class="countries">
+				<h2>Lista krajów</h2>
+				<table class="table">
+					<tr class="country">
+						<th>Country:</th>
+					</tr>
+					<tr class="capital">
+						<th>Capital:</th>
+					</tr>
+					<tr class="land-area">
+						<th>Land area [km<sup>2</sup>]:</th>
+					</tr>
+					<tr class="population">
+						<th>Population:</th>
+					</tr>
+					<tr class="language">
+						<th>Language:</th>
+					</tr>
+					<tr class="currency">
+						<th>Currency:</th>
+					</tr>
+				</table>
+				<button id="clear">Nowe wyszukiwanie</button>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
