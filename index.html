@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Wyszukiwarka krajów</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Wyszukiwarka krajów</h1>
+			<input id="country-search" type="text">
+			<button id="search">Szukaj kraju</button>
+			<div class="info">
+				<p>
+					Zadaniem wyszukiwarki jest prezentowanie informacji o państwach. Po wpisaniu nazwy szukanego kraju, pojawi się lista wyników pasująca do szukanej frazy. Jeśli chcesz uzyskać dodatkowe informacje o danym kraju, po prostu kliknij w jego nazwę, a pojawi się tabela ze szczegółowymi informacjami.
+				</p>
+			</div>
+			<div class="countries">
+				<h2>Lista znalezionych krajów</h2>
+				<ol class="results">
+					
+				</ol>
+			</div>
+			<div class="table">
+				<table>
+					<tr class="country">
+						<th>Państwo:</th>
+					</tr>
+					<tr class="capital">
+						<th>Stolica:</t1h>
+					</tr>
+					<tr class="land-area">
+						<th>Powierzchnia [km<sup>2</sup>]:</th>
+					</tr>
+					<tr class="population">
+						<th>Ludność:</th>
+					</tr>
+					<tr class="language">
+						<th>Język(i):</th>
+					</tr>
+					<tr class="currency">
+						<th>Waluta(y):</th>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<button id="clear">Nowe wyszukiwanie</button>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
