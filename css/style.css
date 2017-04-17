@@ -89,6 +89,19 @@ h2 {
 	color: #000;
 }
 
+.results {
+	list-style-type: decimal;
+	line-height: 1.5em;
+	text-indent: 5px;
+	column-count: 3;
+	column-fill: auto;
+	column-gap: 80px;
+}
+
+.results li {
+	cursor: pointer;
+}
+
 .table {
 	background: rgba(0, 0, 0, 0.5);
 	padding: 20px;
